@@ -8,7 +8,7 @@
             <grid-item link="/Box/modules/Alert/Alert" label="Alert">
                 <img slot="icon" src="../assets/grid_icon.png">
             </grid-item>
-            <grid-item link="/Box/modules/Badge/Badge" label="Badge">
+            <grid-item link="/Box/modules/Badge/Badge" label="Badge" >
                 <img slot="icon" src="../assets/grid_icon.png">
             </grid-item>
             <grid-item link="/Box/modules/Blur/Blur" label="Blur">
