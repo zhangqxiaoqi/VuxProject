@@ -1,7 +1,8 @@
 export default {
     validate: (refs) => {
         let checkFlag = true;
-        for (let ref of Object.values(refs)) {
+        refs = typeof (refs) === 'object' ? Object.values(refs) : refs;
+        for (let ref of refs) {
             switch (ref.$options._componentTag) {
                 case 'x-input':
                     if (!ref.valid) {

@@ -12,7 +12,7 @@
             <x-input title="手机号码" name="mobile" placeholder="请输入手机号码" keyboard="number" is-type="china-mobile"></x-input>
         </group>
         <group title="check if value is valid when required===true">
-            <x-input title="message" placeholder="I'm placeholder" ref="input01"  required></x-input>
+            <x-input title="message" placeholder="I'm placeholder" ref="input01" ignore  required></x-input>
             <cell title="click to get valid value" :value="'$valid value:' + valid1" @click.native="getValid1"></cell>
         </group>
         <group title="check if value is valid when required===false">
