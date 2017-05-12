@@ -1,5 +1,5 @@
 export default {
-    validate: (refs) => {
+    validate: (refs) => {//验证方法，input的验证依赖VUX的valid值，textarea值验证是否为空
         let checkFlag = true;
         refs = typeof (refs) === 'object' ? Object.values(refs) : refs;
         for (let ref of refs) {
